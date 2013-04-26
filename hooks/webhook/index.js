@@ -1,13 +1,13 @@
 var request = require("request");
 
+exports.serviceName = "WebHooks";
+
 exports.author = {
 	name: "Rakesh Pai",
 	email: "rakeshpai@errorception.com",
 	github: "errorception",
 	twitter: "errorception"
 };
-
-exports.serviceName = "WebHooks";
 
 exports.onError = function(error, settings, done) {
 	request({
