@@ -1,0 +1,12 @@
+{
+    "isInline": true,
+    "message": "\"_WidgetManager\" is undefined",
+    "userAgent": "Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-I9100G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+    "when": "after",
+    "scriptPath": null,
+    "page": "http://blog.rakeshpai.me/2007/02/ies-unknown-runtime-error-when-using.html",
+    "date": "2012-11-12T15:31:02.576Z",
+    "isFirstOccurrence": true,
+    "webUrl": "http://errorception.com/projects/4e4b1652f384ef4d2d000002/errors/4ecc86a0fc68e61a1a06fdfc",
+    "apiUrl": "https://api.errorception.com/projects/4e4b1652f384ef4d2d000002/errors/4ecc86a0fc68e61a1a06fdfc"
+}
