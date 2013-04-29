@@ -11,6 +11,7 @@ files.filter(function(file) {
 		&& fs.statSync(path.join(hooksDir, file, "index.js")).isFile();
 }).forEach(function(hookName) {
 	exports[hookName] = require("./hooks/" + hookName + "/index.js");
+	exports[hookName].name = hookName;
 
 	if(fs.existsSync(path.join(hooksDir, hookName, "README.md"))) {
 		exports[hookName].docs = marked(fs.readFileSync(path.join(hooksDir, hookName, "README.md"), "utf8"));
