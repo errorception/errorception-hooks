@@ -27,7 +27,7 @@ exports.onError = function(error, settings, done) {
 }
 ```
 
-Check it out – the actual WebHook code in production use at Errorception isn't too different from this.
+[Check it out](https://github.com/errorception/errorception-hooks/blob/master/hooks/webhook/index.js#L13-L25) – the actual WebHook code in production use at Errorception isn't too different from this.
 
 ### The `error` argument
 
