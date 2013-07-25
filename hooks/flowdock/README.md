@@ -2,4 +2,4 @@
 
 Sends a message to your Flowdock team inbox whenever an error occurs.
 
-* `flow_api_token` is the API token of the Flowdock flow (room).
+* Get your Flow API token from your Inbox Sources in the top-right corner of Flowdock.
