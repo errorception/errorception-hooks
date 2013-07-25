@@ -11,7 +11,7 @@ exports.author = {
 
 exports.onError = function(error, settings, done) {
 	request({
-		url: "https://api.flowdock.com/v1/messages/team_inbox/" + settings.flow_api_token,
+		url: "https://api.flowdock.com/v1/messages/team_inbox/" + settings.apiToken,
 		headers: {
 			"Content-Type": "application/json",
 			"User-Agent": "Errorception Notifications"
