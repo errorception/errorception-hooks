@@ -12,7 +12,7 @@ exports.author = {
 exports.onError = function(error, settings, done) {
     request({
         //url: "https://" + settings.client_id + ":" + settings.client_secret + "api.assembla.com/v1/spaces/" + settings.space_id +  "/tickets.json",
-        url: "https://api.assembla.com/v1/spaces/" + settings.space_id +  "/tickets.json",
+        url: "https://api.assembla.com/v1/spaces/" + settings.workspace +  "/tickets.json",
         headers: {
             "X-Api-Key": settings.key,
             "X-Api-Secret": settings.secret,
