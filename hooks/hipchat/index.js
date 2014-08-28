@@ -24,10 +24,10 @@ function formatMessage(error) {
 }
 
 exports.onError = function(error, settings, done) {
-	var apiUrl = settings.apiUrl || "https://api.hipchat.com/v1/";
+	var apiUrl = settings.apiUrl || "https://api.hipchat.com";
 	// Make an API call as documented at https://www.hipchat.com/docs/api/method/rooms/message
 	request({
-		url: apiUrl + "rooms/message",
+		url: apiUrl + "/v1/rooms/message",
 		qs: {
 			auth_token: settings.token
 		},
