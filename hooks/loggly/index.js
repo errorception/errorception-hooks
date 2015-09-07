@@ -13,7 +13,7 @@ exports.onError = function(error, settings, done) {
 	// API call docs: http://loggly.com/support/advanced/api-event-submission/
 
 	request({
-		url: "https://logs.loggly.com/inputs/" + settings.serviceKey,
+		url: "https://logs-01.loggly.com/inputs/" + settings.serviceKey + "/tag/errorception",
 		headers: {
 			"Content-Type": "application/json",
 			"User-Agent": "Errorception Notifications"
