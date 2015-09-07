@@ -1,6 +1,6 @@
 {
   "name": "errorception-hooks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Service hooks for Errorception",
   "main": "index.js",
   "scripts": {
