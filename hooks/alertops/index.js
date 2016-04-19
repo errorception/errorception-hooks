@@ -14,7 +14,7 @@ exports.onError = function(error, settings, done) {
     request({
 		url: "https://notify.alertops.com/restapi.svc/POSTAlertV2/generic/" 
 			+ settings.apiKey + "/Errorception/" + settings.sourceName 
-			+ "/subject/id/none/none/webUrl/shortText/LongText",
+			+ "/subject/id/none/none/webUrl/shortText/LongText/none",
 		method: "post",
 		body: JSON.stringify({
 			subject: "(Errorception) " + error.message,
