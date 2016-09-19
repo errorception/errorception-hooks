@@ -10,8 +10,8 @@
   "author": "rakeshpai@errorception.com",
   "license": "MIT",
   "dependencies": {
-    "request": "~2.20.0",
-    "marked": "~0.2.8",
-    "node_hash": "~0.2.0"
+    "marked": "^0.3.6",
+    "node_hash": "~0.2.0",
+    "request": "^2.75.0"
   }
 }
