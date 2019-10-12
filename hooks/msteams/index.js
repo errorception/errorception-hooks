@@ -1,6 +1,6 @@
 var request = require("request");
 
-exports.serviceName = "Teams";
+exports.serviceName = "Microsoft Teams";
 
 exports.author = {
 	name: "Anders Jacobsson",
