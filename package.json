@@ -10,7 +10,7 @@
   "author": "rakeshpai@errorception.com",
   "license": "MIT",
   "dependencies": {
-    "marked": "^0.6.0",
+    "marked": "^0.7.0",
     "node_hash": "~0.2.0",
     "request": "^2.75.0"
   }
